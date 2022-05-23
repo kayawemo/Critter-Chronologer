@@ -6,6 +6,8 @@ import java.util.List;
  * Represents the form that customer request and response data takes. Does not map
  * to the database directly.
  */
+
+// should I maintain this format?
 public class CustomerDTO {
     private long id;
     private String name;
