@@ -15,7 +15,7 @@ import java.util.Set;
 public class Pet {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
     private PetType type;
